@@ -1,0 +1,1173 @@
+body
+{
+    height: 1200px;
+    color: white;
+    overflow-x: hidden;
+}
+.navbar1 {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #a5c926;
+    width: 100%;
+    height: 32px;
+    z-index: 10000;
+}
+.navbar-brand1 {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+    position:relative;
+    top: -4px;
+    left: 160px;
+    text-decoration: none;
+    padding: 5px;
+}
+.navbarbrand
+{
+    text-decoration: underline; font-size:12px;     
+    position:relative;
+    top: -4px;
+    left: 155px; 
+    cursor:pointer;
+    color: white;
+}
+.navbarbrand:hover
+{
+    color: white;
+}
+.nav-link1
+{
+    position: relative;
+    top: -27px;
+    left: 1170px;
+}
+.nav-link2
+{
+    position: relative;
+    top: -52px;
+    left: 1198px;
+}
+.nav-link3
+{
+    position: relative;
+    top: -76px;
+    left: 1226px;
+}
+.nav-link4
+{
+    position: relative;
+    top: -100px;
+    left: 1254px;
+}
+.nav-link5
+{
+    position: relative;
+    top: -124px;
+    left: 1282px;
+}
+.navbar
+{
+    position: fixed;
+    top:32px;
+    width: 100%;
+    height: 64px;
+    padding-right: 0px;
+    padding-left: 8px;
+    z-index: 10000;
+    background-color: white;
+    box-shadow: 2px 4px 20px 0px #00000014;
+}
+.navbar-brand
+{
+    position: relative;
+    top:3px;
+    left: 150px;
+    font-size: 22px;
+    line-height: 28px;
+}
+.nav-item
+{
+    position: relative;
+    top:35px;
+    left: 180px;
+    color: black;
+    padding: 10px;
+}
+.cart
+{
+    position: relative;
+    left: 590px;
+}
+.fa-shopping-cart
+{
+    position: relative;
+    top:-52px;
+    left: 620px;
+    cursor: pointer;
+}
+.zero
+{
+    height: 20px;
+    line-height: 20px;  
+    width: 20px;  
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color:#a5c926;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 57px;
+    left: 790px;
+}
+ul
+{
+    list-style:none;
+}
+/* background image homepage */
+.bg
+{
+    width: 100%;
+    position:absolute;
+    top:-320px;
+    z-index: 10;
+}
+/* pop-up sign*/
+.pop-up
+{
+    font-weight: 570px;
+    height: 320px;
+    width: 37%;
+    background-color: white;
+    position: relative;
+    top: 230px;
+    left: 476px;
+    z-index: 100;
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
+    padding: 56px 48px;
+}
+.h11
+{
+    position: relative; bottom: -10px; font-size: 40px;
+}
+.h111
+{
+    position: relative; bottom: 10px; font-size: 40px;
+}
+/* types of toys */
+.types-of-toys
+{
+    position: relative;
+    top: 530px;
+    left:120px;
+}
+.toys
+{
+    background-color:#f8f8f8;
+    height:2000px;
+    width: 100%;
+}
+.card1
+{
+    background-color: #ffc12c;
+    border-radius: 16px;
+    max-width: 624px;
+    height:200px;
+}
+.card1 img
+{
+    position: absolute;
+    left: 15px;
+    bottom: 36px;
+    width: 220px;
+}
+.title1
+{
+    color: white;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    position: relative;
+    top:40px;
+    left:40px;
+}
+.button1
+{
+    background-color: white;
+    height: 40px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    font-weight:510;
+    color: rgb(33, 33, 33);
+    position: relative;
+    top: 50px;
+    left:40px;
+}
+
+.card2
+{
+    background-color: #fb416b;
+    border-radius: 16px;
+    position:relative;
+    top:-215px;
+    left:660px;
+    max-width: 624px;
+    height:200px;
+}
+.card2 img
+{
+    position: absolute;
+    right: 21px;
+    bottom: 17px;
+    width: 270px;
+}
+.title2
+{
+    color: white;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    position: relative;
+    top:40px;
+    left:-80px;
+}
+.button2
+{
+    background-color: white;
+    height: 40px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    font-weight:510;
+    color: rgb(33, 33, 33);
+    position: relative;
+    top: 50px;
+    left:-10px;
+}
+.link {
+    display: inline-block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ddd;
+    -webkit-transition: border-color 300ms ease;
+    transition: border-color 300ms ease;
+    color: #111;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    position: absolute;
+    top:300px;
+    left:1170px;
+}
+.link:hover
+{
+    color: black;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    position: relative;
+    top: -110px;
+}
+.shop-header-line {
+    width: 83.5%;
+    height: 2px;
+    margin-top: 32px;
+    background-color: #e5e5e5;
+    position: relative;
+    top:-110px;
+}
+.text1 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.cards
+{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 24px 24px 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    text-align: center;
+    text-decoration: none;
+}
+.stuffed-toys
+{
+    position: relative;
+    right:20px;
+}
+.cards img
+{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 16px;
+    padding: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    top:-10px;
+}
+.card4
+{
+    position: relative;
+    left: 350px;
+    top:-358px;
+}
+.card5
+{
+    position: relative;
+    left: 700px;
+    top:-715px;
+}
+.card6
+{
+    position: relative;
+    left: 1050px;
+    top:-1075px;
+}
+/* wooden toys */
+.link2 {
+    display: inline-block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ddd;
+    -webkit-transition: border-color 300ms ease;
+    transition: border-color 300ms ease;
+    color: #111;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    top:-440px;
+    left:1282px;
+}
+.link2:hover
+{
+    color: black;
+}
+.bg-color-wooden
+{
+    width: 100%;
+    background-color:#f8f8f8;
+    height:2000px;
+}
+.wooden-toys
+{
+    position: relative;
+    bottom:380px;
+    left: 90px;
+}
+.wooden
+{
+    position: relative;
+    top:-340px;
+    left: 110px;
+}
+.line
+{
+    position: relative;
+    top:-450px;
+    left: 110px;
+}
+.cards img
+{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 16px;
+    padding: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    top:-10px;
+}
+.card8
+{
+    position: relative;
+    left: 350px;
+    top:-358px;
+}
+.card9
+{
+    position: relative;
+    left: 700px;
+    top:-715px;
+}
+.card10
+{
+    position: relative;
+    left: 1050px;
+    top:-1075px;
+}
+.watch-us
+{
+    position: relative;
+    top:-1750px;
+    width: 100%;
+    align-items: center;
+}
+.intro
+{
+    position: relative;
+    left:350px;
+    top:120px;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background:url(Images/story.jpg);
+}
+.bg-review
+{
+    width: 100%;
+    height: 1100px;
+    background-color:#f8f8f8;
+    position: relative;
+    top:-900px;
+}
+.tit
+{
+    position: relative;top: -704px;left: 700px;
+}
+.review h2
+{
+    width: 30%; 
+    text-align: center;
+    position: relative;
+    top: -704px;
+    left: 550px;
+}
+.side-info
+{
+    position: relative; 
+    top:-500px; 
+    left:80px;
+}
+.text-grey
+{
+    width: 30%;
+}
+.get-it
+{
+    color: white;
+}
+.side-image
+{
+    height:500px; 
+    position: relative; 
+    top: -880px; 
+    left: 750px;
+}
+.subscribe
+{
+    position: relative;
+    top:-760px;
+    left: 80px;
+}
+.elastic
+{
+    position: relative;
+    top:-630px;
+    left:730px;
+}
+.insta
+{
+    position: relative;
+    top:-630px;
+    left:630px;
+}
+.instagram
+{
+    position:relative;
+    top:-500px;
+}
+.see
+{
+    position: relative;
+    top:-500px;
+    left: 680px;
+}
+.section2
+{
+    position: relative;
+    top:-900px;
+}
+@media (max-width:991px)
+{
+     body
+     {
+        height: 7000px;
+     }
+    .navbar1 {
+        position:relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background-color: #a5c926;
+        width: 100%;
+        height: 32px;
+    }  
+    .navbar-brand1 {
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 12px;
+        position:relative;
+        top: -5px;
+        left: 0px;
+    }
+    .navbarbrand
+    {
+        text-decoration: underline; font-size:12px;     
+        position:relative;
+        top: -5px;
+        left: -4px; 
+        cursor:pointer;
+        color: white;
+    }
+    .nav-item1
+    {
+        position:relative;
+        top: 0px;
+        left: -870px;
+    }
+    .navbar
+    {
+        position:relative;
+        top:2px;
+        width: 100%;
+        height: 64px;
+        padding-right: 0px;
+        padding-left: 8px;
+    }
+    .navbar-brand
+    {
+        position: relative;
+        top:3px;
+        left: 10px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .nav-item
+    {
+        position: relative;
+        top:35px;
+        left: 0px;
+        color: black;
+        padding: 10px;
+    }
+    .cart
+    {
+        position: relative;
+        left: 0px;
+    }
+    .fa-shopping-cart
+    {
+        position: relative;
+        top:-55px;
+        left:25px;
+        cursor: pointer;
+    }
+    .zero
+    {
+        height: 20px;
+        line-height: 20px;  
+        width: 20px;  
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 50%;
+        background-color:#a5c926;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        top: -67px;
+        left: 90px;
+    }
+    ul
+    {
+        list-style:none;
+    }
+    /* background image homepage */
+    .bg
+    {
+        width:140%;
+        position:absolute;
+        top:100px;
+        left:-110px;
+        z-index: 10;
+    }
+    .navbar-collapse
+    {
+        background-color: white;
+    
+    }
+    .pop-up
+    {
+        font-weight: 570px;
+        height: 250px;
+        width: 94%;
+        background-color: white;
+        position: relative;
+        top: 105px;
+        left: 15px;
+        z-index: 100;
+        border-radius: 16px;
+        text-align: center;
+        align-items: center;
+        padding: 56px 48px;
+    }
+    .pop-up h6
+    {
+        position: relative;
+        top: -10px;
+    }
+    .h11
+    {
+        position: relative;
+        top: 0px;
+        font-size: 30px;
+    }
+    .h111
+    {
+        position: relative;
+        top: -20px;
+        font-size: 30px;
+    }
+    .button
+    {
+        position: relative;
+        top:-30px;
+    }
+/* types of toys */
+.toys
+{
+    background-color:#f8f8f8;
+    height:3000px;
+    width: 100%;
+}
+.types-of-toys
+{
+    position: relative;
+    top: 320px;
+    left:17px;
+}
+.card1
+{
+    background-color: #ffc12c;
+    border-radius: 16px;
+    height:420px;
+    width: 93%;
+}
+.card1 img
+{
+    position: absolute;
+    left: 70px;
+    bottom: 152px;
+    width: 320px;
+}
+.title1
+{
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    position: relative;
+    top:270px;
+    left:135px;
+}
+.button1
+{
+    background-color: white;
+    height: 40px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    font-weight:510;
+    color: rgb(33, 33, 33);
+    position: relative;
+    top: 280px;
+    left:160px;
+}
+
+.card2
+{
+    background-color: #fb416b;
+    border-radius: 16px;
+    position:relative;
+    top:80px;
+    left:1px;
+    width:93%;
+    height: 300px;
+}
+.card2 img
+{
+    position: absolute;
+    left: 110px;
+    bottom: 155px;
+    width: 220px;
+}
+.title2
+{
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    position: relative;
+    top:150px;
+    left:130px;
+}
+.button2
+{
+    background-color: white;
+    height: 40px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    font-weight:510;
+    color: rgb(33, 33, 33);
+    position: relative;
+    top: 160px;
+    left:140px;
+    }
+    .link {
+        display: inline-block;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-bottom: 2px solid #ddd;
+        -webkit-transition: border-color 300ms ease;
+        transition: border-color 300ms ease;
+        color: #111;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        position: relative;
+        top:120px;
+        left:350px;
+    }
+    .link:hover
+    {
+        color: #111;
+    }
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 16px;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 400;
+        position: relative;
+        top: 110px;
+
+    }
+    .shop-header-line {
+        height:38px;
+        margin-top: 32px;
+        background-color: #e5e5e5;
+        position: relative;
+        top:110px;
+    }
+    .text1 {
+        margin-top: 0px;
+        margin-bottom: 8px;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .cards
+    {
+        display: flex;
+        width: 500px;
+        padding: 24px 24px 32px;
+        flex: 1;
+        border-radius: 16px;
+        background-color: #fff;
+        text-align: center;
+        text-decoration: none;
+    }
+    .cards:hover {
+        box-shadow: 0px 1px 17px 4px rgb(101 103 95 / 15%);
+    }
+    .stuffed-toys
+    {
+        position: relative;
+        top:140px;
+        left: 60px;
+    }
+    .cards img
+    {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 390px;
+        margin-bottom: 16px;
+        padding: 20px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative;
+        top:-10px;
+    }
+    .card3
+    {
+        position: relative;
+        left: 20px;
+    }
+    .card4
+    {
+        position: relative;
+        left: 20px;
+        top:30px;
+    }
+    .card5
+    {
+        position: relative;
+        left: 20px;
+        top:60px;
+    }
+    .card6
+    {
+        position: relative;
+        left: 20px;
+        top:90px;
+    }
+    .link2 {
+        display: inline-block;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-bottom: 2px solid #ddd;
+        -webkit-transition: border-color 300ms ease;
+        transition: border-color 300ms ease;
+        color: #111;
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        position: relative;
+        top:-80px;
+        left:330px;
+    }
+    .link2:hover
+    {
+        color: black;
+    }
+    .bg-color-wooden
+    {
+        width: 100%;
+        background-color:#f8f8f8;
+        height:2000px;
+    }
+    .wooden-toys
+    {
+        position: relative;
+        bottom:380px;
+        left: 90px;
+    }
+    .wooden
+    {
+        position: relative;
+        top:-210px;
+        left: 20px;
+    }
+    .line
+    {
+        position: relative;
+        top:-100px;
+        left: 20px;
+    }
+    .cards img
+    {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 250px;
+        margin-bottom: 16px;
+        padding: 20px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        position: relative;
+        top:-10px;
+    }
+    .card7
+    {
+        position: relative;
+        left:7px;
+        top:310px;
+    }
+    .card8
+    {
+        position: relative;
+        left: 7px;
+        top:340px;
+    }
+    .card9
+    {
+        position: relative;
+        left:7px;
+        top:370px;
+    }
+    .card10
+    {
+        position: relative;
+        left: 7px;
+        top:400px;
+    }
+    .watch-us
+    {
+        position: relative;
+        top:-380px;
+        width: 100%;
+        z-index: 100000000;
+    }
+    section
+    {
+    position: relative;;
+    width: 100%;
+    height: 400px;
+    background:url(Images/story2.jpg);
+    
+    }
+    .intro
+    {
+        position: relative;
+        left:10px;
+        top:70px;
+    }
+    .intro p
+    {
+        width:75%;
+    }
+    .bg-review
+    {
+        width: 100%;
+        height: 2600px;
+        background-color:#f8f8f8;
+        position: relative;
+        top:-800px;
+    }
+    .tit
+    {
+        position: relative;
+        top:500px;
+        left: 180px;
+    }
+    .review h2
+    {
+        width: 90%; 
+        text-align: center;
+        position: relative;
+        top: 504px;
+        left: 20px;
+    }
+.side-info
+{
+    position: relative; 
+    top:950px; 
+    left:10px;
+    z-index: 1000000;
+
+}
+.text-grey
+{
+    width: 30%;
+    position: relative;
+    top:0px;
+    left: -5px;
+    width: 90%;
+}
+.get-it
+{
+    color: white;
+    position: relative;
+    top:10px;
+}
+.side-image
+{
+    height:315px; 
+    position: relative; 
+    top: 310px; 
+    left: 15px;
+}
+.subscribe
+{
+    position: relative;
+    top:740px;
+    left: 25px;
+}
+.subs
+{
+    position: relative;
+    top:5px;
+}
+.elastic
+{
+    position: relative;
+    top:830px;
+    left:190px;
+}
+.insta
+{
+    position: relative;
+    top:840px;
+    left:117px;
+}
+.instagram
+{
+    position:relative;
+    top:900px;
+}
+.see
+{
+    position: relative;
+    top:900px;
+    left: 160px;
+}
+.section2
+{
+    position: relative;
+    top:-800px;
+}
+}
+.button {
+    height: 48px;
+    padding: 12px 28px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 24px;
+    background-color: #a5c926;
+    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+.button:hover {
+    box-shadow: 0 8px 8px -4px rgba(165, 201, 38, 0.5);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+.button1:hover {
+    box-shadow: 0 8px 8px -4px rgb(17 17 17 / 0.2);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+.button2:hover {
+    box-shadow:0 8px 8px -4px rgb(17 17 17 / 0.2);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+.cards:hover {
+    box-shadow: 0px 1px 17px 4px rgb(101 103 95 / 15%);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
